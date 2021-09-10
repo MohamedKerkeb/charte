@@ -31,3 +31,7 @@ h4, h5 {
     width: 95%;
     margin: auto;
 }
+
+.button-container {
+    text-align: center;
+}
