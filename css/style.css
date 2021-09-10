@@ -26,8 +26,26 @@ h4, h5 {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
+.content {
+    display: none;
+}
+
 .box ul li {
     list-style: url('../images/bullet.png');
     width: 95%;
     margin: auto;
 }
+
+.active {
+    display: block;
+}
+
+.button-container {
+    text-align: center;
+    width: auto;
+}
+
+.button {
+    width: 200px;
+}
+
