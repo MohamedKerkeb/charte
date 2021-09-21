@@ -11,10 +11,21 @@ function randUsers() {
     }, 3000);
 }
 
+const btn = document.querySelector('#btn');
+let title = document.querySelectorAll(".titre")
+
+btn.addEventListener('click', () => {
+    for(let i = 0; i<title.length; i++) {
+        let res = title[i].nextElementSibling;
+        res.classList.toggle("active")
+    }
+    
+})
+
 // accordeon
 
-let title = document.querySelectorAll(".titre")
-console.log(title)
+
+//console.log(title)
 
 for (let i = 0; i < title.length; i++) {
     title[i].addEventListener('click', function () {
