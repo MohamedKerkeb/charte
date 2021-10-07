@@ -1,7 +1,7 @@
 // button random
 
 function randUsers() {
-    var users = ['William', 'Cécile', 'Vincent', 'Romain', 'Aline', 'Isabelle', 'Julian', 'Mohammed', 'Blandine', 'Paul-Emmanuel', 'Thomas', 'Elodie', 'Noredinne', 'Sana'];
+    var users = ['William', 'Cécile', 'Vincent', 'Romain', 'Aline', 'Isabelle', 'Julian', 'Mohammed', 'Blandine', 'Paul-Emmanuel', 'Thomas', 'Hédi', 'Noredinne', 'Sana'];
     var randNum = Math.floor(Math.random() * users.length);
     document.getElementById('button-random').innerHTML = users[randNum];
     document.getElementById("button-random").disabled = true;

@@ -40,6 +40,15 @@ h4, h5 {
     transition: max-height 0.3s ease-out;
 }
 
+h5, p {
+    display: inline;
+}
+
+.box p {
+    font-size: 12px;
+    font-style: italic;
+}
+
 .box ul li {
     list-style: url('../images/bullet.png');
     width: 95%;
